@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript!</title>
+        <link href="styles/main.css" type="text/css" rel="stylesheet"> 
+        <script src="scripts/main.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <p id="T"></p>
+        <script>
+            /*
+            var color = new Array();
+            color[0] = "red";
+            color[1] = "Blue";
+            color[2] = "green";
+            document.write(color[0]);*/
+
+            //var color = new Array("Amarelo", "Verde", "Vermelho")
+            //document.write(color[0]);
+          //  var tamanho = color.length;
+           // document.write(tamanho);
+
+          /* var arr = new Array();
+           arr[0] = "Eu";
+           arr[1] = "Sou";
+           arr[2] = "Desenvolvidor";
+           document.write(arr.join(" "));*/
+
+        /*   var arr = new Array("A","B","C");
+           arr.reverse();
+           var rev = arr.join(",");
+           document.write(rev);*/
+        
+           /*
+
+           var arr = new Array("A","B","C","D","E","F");
+           var sli = arr.slice(2,5)
+           document.write(sli);*/
+
+          /* var arr = new Array(1,2,3,4,5,6,7,8);
+           arr.sort();
+           var sor = arr.join(",");
+           document.writeln(sor);*/
+
+         /*  var arr = new Array();
+           arr[0] = "Segunda";
+           arr[1] = "Terca";
+           arr[2] = "Quarta";
+           var mes = arr.toString();
+           document.write(mes);*/
+
+          /* var arrPessoas = ['Yuri','Yussuf','Yussef','Yunnos'];
+           var i;
+           var xp = document.getElementById("F");
+           for(i=0;i<arrPessoas.length;i++)
+           {
+                xp.innerHTML += arrPessoas[i] + " ";
+           }*/
+
+           var hoje = new Date();
+           var m = hoje.getMonth() + 1;
+           var d = hoje.getDate();
+           var y = hoje.getYear() + 1900;
+
+           var xT = document.getElementById("T");
+           xT.innerHTML = d + " - " + m + " - "+y;
+        </script>
+   
+    </body>
+</html>
